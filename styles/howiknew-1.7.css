@@ -1,0 +1,500 @@
+/*  
+Theme Name: i carry your heart (rehashed).
+Theme URI: http://www.howiknewyouweretheone.com/
+Description: The default theme for how i knew you were the one.
+Version: 1.7how
+Author: Rob Spectre
+Author URI: http://www.howiknewyouweretheone.com/
+*/
+
+/*	General	*/
+html, body {
+	background: #400000;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: Droid Sans, Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+a, a:link, a:visited { 
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+a:hover { 
+	color: #231f1f;
+}
+
+
+#container {
+	background: #400000;
+	width: 970px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+
+/*	Header	*/
+#header #home a {
+	display: block;
+	background: url('/images/logo-1.7.png') no-repeat top right #400000;	
+	width: 644px;
+	height: 108px;
+	margin: 0 15px -15px auto;
+	padding: 0;
+}
+
+#header #home a:hover {
+	color: #fff;	
+}
+
+#header .headertext {
+	display: none;
+}
+
+#header .red {
+	color: #f00;	
+}
+
+#header h1 {
+	display: none;
+}
+
+
+/*	Navigation	*/
+#navigation {
+	float: left;
+	background: #A05E28;
+	margin: 49px 0 0 0;
+	padding: 0;
+	width: 179px;
+	display: block;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#navigation h2 {
+	display: none;
+}
+
+#navigation #facebooklike, #navigation #redditbutton, #navigation #stumbleuponbutton {
+	width: 160px;
+	margin: 15px 0 5px 10px;
+	border: 0; 
+}
+
+#navigation #facebooklike {
+	width: 165px;
+	margin: 15px 0 45px 5px;	
+}
+
+#navigation #followus a {
+	margin: 20px 0 0 10px;
+	display: block;
+	background: url('http://twitter-badges.s3.amazonaws.com/follow_us-c.png') no-repeat;
+	width: 160px;
+	height: 27px;
+}
+
+#navigation #submit {
+	margin: -10px 0 10px 0;
+	padding: 0;
+}
+
+#navigation .share {
+	display: block;
+	width: 182px;
+	height: 115px;
+	background: url('/images/submit-unfocused.png') right no-repeat;
+	text-align: right;
+	margin: 20px auto 0 auto;
+	padding: 0 0 10px 0;
+}
+
+#navigation .share:hover {
+	background: url('/images/submit-focused.png') right no-repeat;
+}
+
+#navigation .sharetext, #navigation .know {
+	display: none;
+}
+
+#navigation .know:hover {
+	color: #fff;
+}
+
+#navigation .sharesubtitle {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 0 0 0;
+	padding: 120px 0 0 0;
+}
+
+#activityfeed {
+	border:none; 
+	overflow:hidden; 
+	width: 179px; 
+	height: 500px;
+	float: left;	
+	display: block;
+	clear: left;
+	margin: 15px 0 0 0;
+	padding: 5px 0 5px 0;
+	background: #ffffff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+
+/*	Footer	*/
+#footer {
+	background: #A05E28;
+	width: 770px;
+	height: 301px;
+	display: block;
+	margin: -10px 0 0 185px;
+	padding: 10px 0 0 0;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+
+#footer a:hover {
+	color: #000;
+}
+
+#footer #momentlinks {
+	float: left;
+	width: 150px;
+	margin: 0 0 0 15px;
+}
+
+#footer #info {
+	float: left;
+	width: 150px;
+	margin: 0 0 0 25px;
+}
+
+#footer #twittersearch {
+	margin: 0 0 0 270px;
+	padding: 0 0 5px 0;
+}
+
+#footer h2 {
+	color: #fff;
+	width: 120px;
+	font: 32px;
+	border-bottom: 3px solid #fff;
+}
+
+#footer ul, #footer li, #navigation ul, #navigation li {
+	margin: 6px 0 0 2px;
+	padding: 0;
+	list-style-type: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#credit {
+	background: #400000;
+	height: 20px;
+	display: block;
+	margin: -11px 0 0 185px;
+}
+
+#credit p {
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	padding: 3px;
+}
+
+#credit a:hover {
+	color: #ff0000;
+}
+
+
+/*	Body	*/
+#body {
+	background: #fff;
+	width: 770px;
+	margin: 0 0 0 185px;
+	padding: 1px 0 10px 0;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+}
+
+#body a, #body a:link, #body a:visited { 
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+#body .counts { 
+	font-weight: normal;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#body a:hover {
+	color: #ff0000;
+}
+
+#body #formbody, #static {
+	background: #FFB273;
+	width: 750px;
+	margin: 15px 0px 35px 10px;
+	padding: 0 0 3px 0;
+	overflow: hidden;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#body .vignette {
+	background: #fff;
+	width: 750px;
+	margin: 15px 0px 35px 10px;
+	padding: 0 0 3px 0;
+	overflow: hidden;
+}
+
+#body .vignette-hot {
+	background: #FF7373;
+	overflow: hidden;
+}
+
+#body .vignette-warm {
+	background: #F7A1A1;
+	overflow: hidden;
+}
+
+#body .vignette-cold {
+	background: #fad0d2;
+	overflow: hidden;
+}
+
+#body .top, #formbody .top {
+	background: #A05E28;
+	width: 750px;
+	color: #fff;
+	padding: 3px 0 3px 0;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+}
+
+#body .bottom {
+	margin: 0;
+	padding: 0;
+	background: #A05E28;
+	width: 750px;	
+	color: #fff;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+
+#body .top a, #body .top a:link, #body .top a:visited { 
+	color: #fff;
+}
+
+#body .top a:hover {
+	color: #231f1f;	
+}
+
+#body h4, #formbody h2, #static h2 {
+	width: 650px;
+	margin: 0;
+	padding: 0 0 0 20px;
+	font-size: 23px;
+}
+
+#body .geolocation {
+	font-size: 12px;	
+}
+
+#body h3 {
+	width: 625px;
+	margin: 0 0 0 25px;
+	padding: 0 10px 10px 0;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#body p {
+	font-size: 12px;
+	padding: 0 0 0 10px;
+}
+
+#body strong {
+	font-size: 20px;
+}
+
+#body .hearts {
+	float: right;
+	display: block;
+	margin: -15px 5px 3px 0;
+	padding: 4px;
+	width: 90px;
+}
+
+#body .heart {
+	display: block;
+	width: 90px;
+	height: 86px;
+	background: url('/images/heartmysite_unfocused.png') no-repeat;
+	text-align: center;
+}
+
+#body .heart:hover {
+	background: url('/images/heartmysite.png') no-repeat;
+}
+
+#body .heart:disabled {
+	color: gray;
+	background: url('/images/heartmysite_disabled.png') no-repeat;	
+}
+
+#body .heart .disabled:hover {
+	color: gray;
+	background: url('/images/heartmysite_disabled.png') no-repeat;	
+}
+
+#body .heartcountbutton {
+	font-size: 30px;
+	margin: 0 0 0 -37px;
+	padding: 36px 0 0 0px;
+}
+
+#body .twitter-share-button, #body .facebook-like-button {
+	padding: 1px 0 1px 0;
+}
+
+.anchortext {
+	display: none;
+}
+
+#body #pagination {
+	text-align: center;
+}
+
+.tags {
+	display: none;
+	margin: 0 0 5px 0;
+	padding: 5px;
+	text-align: center;	
+}
+
+.tagthis {
+	color: #fff;
+	padding: 10px 10px 0 0;
+	text-align: right;
+}
+
+#body .bottom a, #body .counts {
+	color: #fff;	
+}
+
+#body .bottom a:hover {
+	color: #000;	
+}
+
+ul.taglist, li.tagitem {
+	display: inline;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px;
+}
+
+.tags p {
+	margin: 0 0 2px 0;	
+}
+
+
+/* Submit Form	*/
+#formbody {
+	background: #FFB273;
+	margin: 0 0 0 200px;
+}
+	
+#formbody h3 {
+	margin: 0;
+	padding: 10px 0 10px 20px;
+}
+
+#formbody h4 {
+	display: inline;
+	margin: 10px 0 0 2px;
+}
+
+#formbody label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#formbody #genderright {
+	margin: 0 0 0 -10px;	
+}
+
+textarea {
+	display: block;
+	width: 600px;
+	height: 140px;
+	border: 2px solid #231f1f;
+	margin: 0 0 10px 10px;
+	padding: 2px;
+	font-family: Tahoma, san-serif;	
+}
+
+#formbody #geolocation {
+	display: block;
+	width: 450px;
+	height: 15px;
+	border: 2px solid #231f1f;
+	margin: 10px 0 10px 10px;
+	padding: 2px;
+	font-family: Tahoma, san-serif;	
+}
+
+#formbody #recaptcha, #submit, .moderatebuttons, .moderatebuttons a, dl {
+	margin: 10px 0 10px 10px;
+}
+
+.clear {
+	clear: both;	
+}
+
+
+/*	Static Content	*/
+
+#static h3 {
+	margin: 0;
+	padding: 10px 0 10px 20px;	
+}
+
+#static dt {
+	font-weight: bold;
+	padding: 20px 0 0 0;
+}
+
+#static p {
+	font-size: 14px;
+	margin: 10px 0 10px;	
+}
+
+#static img {
+	margin: -50px 10px 0 0;
+	padding: 5px;
+	float: right;
+}
