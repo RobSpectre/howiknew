@@ -20,7 +20,7 @@ Major changes:
 <li>Open sourced for Valentines Day</li>
 </ul>
 
-#### Contributors
+## Contributors
 * Rob Spectre - http://facebook.com/rob.spectre
 
 
@@ -40,6 +40,8 @@ Everything else:
 ## Summary
 
 how i knew you were the one is an web service that collects the moments when lucky people know the person they are with is the one that will be forever.  The code for this project was open sourced with the final v1.7 release on Valentine's Day 2011.  Development will now continue here on github.
+
+Created by Rob Spectre.  Lovingly crafted in Brooklyn, New York.
 
 -
 i carry your heart(i carry it in my heart)
